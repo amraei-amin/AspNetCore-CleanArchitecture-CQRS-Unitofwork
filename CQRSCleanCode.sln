@@ -23,7 +23,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utility", "Utility", "{33F0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoyalUtility", "RoyalUtility\RoyalUtility.csproj", "{951D9D4B-70C0-45B8-B35E-245F7FDD6225}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamaWebFramework", "SamaWebFramework\SamaWebFramework.csproj", "{BFF236D0-E26F-434F-821C-A080FA4CBBB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoyalWebFramework", "SamaWebFramework\RoyalWebFramework.csproj", "{BFF236D0-E26F-434F-821C-A080FA4CBBB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
