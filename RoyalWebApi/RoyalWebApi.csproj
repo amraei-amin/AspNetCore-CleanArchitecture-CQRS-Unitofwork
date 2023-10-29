@@ -19,7 +19,7 @@
     <ProjectReference Include="..\RoyalApplication\RoyalApplication.csproj" />
     <ProjectReference Include="..\RoyalPersistence\RoyalPersistence.csproj" />
     <ProjectReference Include="..\RoyalUtility\RoyalUtility.csproj" />
-    <ProjectReference Include="..\SamaWebFramework\RoyalWebFramework.csproj" />
+    <ProjectReference Include="..\RoyalWebFramework\RoyalWebFramework.csproj" />
   </ItemGroup>
 
 </Project>

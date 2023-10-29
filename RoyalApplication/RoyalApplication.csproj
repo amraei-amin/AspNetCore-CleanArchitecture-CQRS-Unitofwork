@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Domain\RoyalDomain.csproj" />
+    <ProjectReference Include="..\RoyalDomain\RoyalDomain.csproj" />
     <ProjectReference Include="..\RoyalUtility\RoyalUtility.csproj" />
   </ItemGroup>
 
