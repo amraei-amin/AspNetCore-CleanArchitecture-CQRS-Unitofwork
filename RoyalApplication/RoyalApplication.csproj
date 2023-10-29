@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Features\DeviceGroupsFeatures\Commands\CreateDeviceGroupsCommand.cs" />
+    <Compile Remove="Features\DeviceGroupsFeatures\Commands\DeleteDeviceGroupsByIdCommand.cs" />
+    <Compile Remove="Features\DeviceGroupsFeatures\Commands\UpdateDeviceGroupsCommand.cs" />
+    <Compile Remove="Features\DeviceGroupsFeatures\Queries\GetDeviceGroupsByIdQuery.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mapster" Version="7.4.0" />
+    <PackageReference Include="MediatR" Version="12.1.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\RoyalDomain.csproj" />
+    <ProjectReference Include="..\RoyalUtility\RoyalUtility.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\DeviceGroupsFeatures\Commands\" />
+  </ItemGroup>
+
+</Project>
