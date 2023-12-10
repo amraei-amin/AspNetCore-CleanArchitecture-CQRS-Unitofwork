@@ -10,5 +10,6 @@ namespace RoyalDomain.Interfaces.Common
         void Update(T entity);
         void Delete(T entity);
         void AddRange(IEnumerable<T> entities);
+        void UpdateRange(IEnumerable<T> entities);
     }
 }
